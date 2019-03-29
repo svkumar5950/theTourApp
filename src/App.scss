@@ -1,0 +1,105 @@
+//Global Variables
+$main-color: #212a37;
+$secondary-color: #308695;
+$third-color: #faf7f4;
+$font-header: "Nunito", sans-serif;
+$font-text: "Poppins", sans-serif;
+
+//Templete for Media Query
+
+@mixin mq($screen-size) {
+  @media screen and (max-width($screen-size)) {
+    @content;
+  }
+}
+
+// Global Stylling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+// App Component
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgba(231, 27, 71, 0.4),
+    rgba(224, 108, 54, 0.6)
+  );
+}
+// App Component and it's Child's
+
+.App header {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  h1.app-brand {
+    margin: 2vh 3vw;
+    font-family: $font-header;
+    font-size: calc(2vw + 1em);
+    a {
+      color: $main-color;
+    }
+  }
+  nav.app-nav {
+    ul.app-navitems {
+      display: flex;
+      padding: 5px;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        position: relative;
+        margin: 2vh 3vw;
+        padding: 5px;
+        a {
+          color: $main-color;
+          opacity: 0.8;
+          font: calc(1vw + 1em) $font-header;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+// Home Component
+
+.App .app-home-sections {
+  width: 100vw;
+  padding: 2%;
+  cursor: pointer;
+  .home-img {
+    width: 30%;
+    position: relative;
+    border: 2px solid $main-color;
+    img {
+      width: 100%;
+      opacity: 0.9;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    h3 {
+      position: absolute;
+      z-index: 3;
+      top: 45%;
+      left: 10%;
+      font-family: $font-header;
+      color: $third-color;
+    }
+    p {
+      padding: 2%;
+      color: $main-color;
+      font-family: $font-text;
+    }
+  }
+}
