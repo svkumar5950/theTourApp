@@ -1,5 +1,5 @@
 //Global Variables
-$main-color: #212a37;
+$main-color: #c4c4c4;
 $secondary-color: #308695;
 $third-color: #faf7f4;
 $font-header: "Nunito", sans-serif;
@@ -8,7 +8,7 @@ $font-text: "Poppins", sans-serif;
 //Templete for Media Query
 
 @mixin mq($screen-size) {
-  @media screen and (max-width($screen-size)) {
+  @media screen and (min-width: $screen-size) {
     @content;
   }
 }
@@ -29,40 +29,33 @@ $font-text: "Poppins", sans-serif;
 .App {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(
-    to right,
-    rgba(231, 27, 71, 0.4),
-    rgba(224, 108, 54, 0.6)
-  );
+  background: linear-gradient(#5c2774, #335cc5, #637ffd);
 }
 // App Component and it's Child's
 
 .App header {
-  display: flex;
   width: 100%;
-  padding: 5px;
+  font-family: $font-header;
+
   h1.app-brand {
-    margin: 2vh 3vw;
-    font-family: $font-header;
-    font-size: calc(2vw + 1em);
+    text-align: center;
     a {
+      font-size: calc(2vw + 1em);
       color: $main-color;
     }
   }
   nav.app-nav {
-    ul.app-navitems {
+    padding: 2%;
+    max-width: 100%;
+    ul {
       display: flex;
-      padding: 5px;
-      justify-content: space-between;
-      align-items: center;
       li {
-        position: relative;
-        margin: 2vh 3vw;
-        padding: 5px;
+        flex-basis: 20%;
+        margin: 1vh 3vw;
         a {
+          opacity: 0.7;
           color: $main-color;
-          opacity: 0.8;
-          font: calc(1vw + 1em) $font-header;
+          font-size: calc(1vw + 1em);
           &:hover {
             opacity: 1;
           }
@@ -71,35 +64,20 @@ $font-text: "Poppins", sans-serif;
     }
   }
 }
-// Home Component
+// Media Query for the Header
 
-.App .app-home-sections {
-  width: 100vw;
-  padding: 2%;
-  cursor: pointer;
-  .home-img {
-    width: 30%;
-    position: relative;
-    border: 2px solid $main-color;
-    img {
-      width: 100%;
-      opacity: 0.9;
-      &:hover {
-        opacity: 1;
+@include mq(850px) {
+  .App header {
+    display: grid;
+    align-self: center;
+    h1.app-brand {
+      margin-top: 3vh;
+    }
+    nav.app-nav {
+      grid-column: 3/4;
+      ul {
+        margin-top: 3vh;
       }
-    }
-    h3 {
-      position: absolute;
-      z-index: 3;
-      top: 45%;
-      left: 10%;
-      font-family: $font-header;
-      color: $third-color;
-    }
-    p {
-      padding: 2%;
-      color: $main-color;
-      font-family: $font-text;
     }
   }
 }
