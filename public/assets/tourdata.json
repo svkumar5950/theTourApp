@@ -1,0 +1,46 @@
+{
+  "details": [
+    {
+      "id": "1",
+      "image": "./assets/home_img/france.jpg",
+      "title": "Trip to France",
+      "place": "France",
+      "description": "Fluff it up a little and hypnotize it. Everyone needs a friend. Friends are the most valuable things in the world. Water's like me. It's laaazy ... Boy, it always looks for the easiest way to do things These things happen automatically. All you have to do is just let them happen. Work that paint."
+    },
+    {
+      "id": "2",
+      "image": "./assets/home_img/england.jpg",
+      "title": "Trip to England",
+      "place": "England",
+      "description": "Of course he's a happy little stone, cause we don't have any other kind. That's a son of a gun of a cloud. You can spend all day playing with mountains. Let's have a little bit of fun today. We don't really know where this goes - and I'm not sure we really care. Let's do it again then, what the heck."
+    },
+    {
+      "id": "3",
+      "image": "./assets/home_img/india.jpg",
+      "title": "Trip to India",
+      "place": "India",
+      "description": "Let the paint work. Now we can begin working on lots of happy little things. I started painting as a hobby when I was little. I didn't know I had any talent. I believe talent is just a pursued interest. Anybody can do what I do. I'm gonna start with a little Alizarin crimson and a touch of Prussian blue We have a fantastic little sky! Let's build some happy little clouds up here."
+    },
+    {
+      "id": "4",
+      "image": "./assets/home_img/italy.jpg",
+      "title": "Trip to Italy",
+      "place": "Italy",
+      "description": "It's so important to do something every day that will make you happy. You have freedom here. The only guide is your heart. Let all these things just sort of happen. I guess that would be considered a UFO. A big cotton ball in the sky."
+    },
+    {
+      "id": "5",
+      "image": "./assets/home_img/japan.jpg",
+      "title": "Trip to Japan",
+      "place": "Japan",
+      "description": "How do you make a round circle with a square knife? That's your challenge for the day. All you have to do is let your imagination go wild. I thought today we would make a happy little stream that's just running through the woods here."
+    },
+    {
+      "id": "6",
+      "image": "./assets/home_img/america.jpg",
+      "title": "Trip to U.S.A",
+      "place": "United States Of America",
+      "description": "We'll throw some old gray clouds in here just sneaking around and having fun. I started painting as a hobby when I was little. I didn't know I had any talent. I believe talent is just a pursued interest. Anybody can do what I do. No pressure. Just relax and watch it happen."
+    }
+  ]
+}

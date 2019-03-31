@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="app-about">
       <div>
-        <img src="http://placeimg.com/1800/400/travel" />
+        <img src="http://placeimg.com/1800/400/travel" alt="trip" />
       </div>
     </div>
   );

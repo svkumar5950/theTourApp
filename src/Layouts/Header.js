@@ -1,25 +1,26 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
     return (
       <header>
         <h1 className="app-brand">
-          <a href="/home">The Tour App</a>
+          <Link to="/home">The Tour App</Link>
         </h1>
         <nav className="app-nav">
           <ul className="app-navitems">
             <li>
-              <a href="/trips">Trips</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/gallery">Gallery</a>
+              <Link to="/gallery">Gallery</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
