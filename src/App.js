@@ -11,14 +11,7 @@ import "./App.scss";
 class App extends Component {
   state = {
     data: [],
-    img: {
-      england: [],
-      france: [],
-      india: [],
-      italy: [],
-      japan: [],
-      usa: []
-    }
+    img: []
   };
   async componentDidMount() {
     const data = await await fetch("./assets/tourdata.json").then(res =>
@@ -29,16 +22,10 @@ class App extends Component {
       res.json()
     );
     this.setState({
-      img: {
-        england: dataimg.england,
-        france: dataimg.france,
-        india: dataimg.india,
-        italy: dataimg.italy,
-        japan: dataimg.japan,
-        usa: dataimg.usa
-      }
+      img: dataimg.image
     });
   }
+
   render() {
     return (
       <Router>

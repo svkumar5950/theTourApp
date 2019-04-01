@@ -142,22 +142,134 @@ $font-text: "Poppins", sans-serif;
 // App-Gallery Component
 
 .app-gallery {
-  width: 80%;
+  width: 90%;
   height: 100%;
-  border: #0cdb4a 2px solid;
+  border: $third-color 2px solid;
   margin: 2vh auto;
   padding: 1%;
   .gallery-section {
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      justify-content: space-around;
-      li {
-        a {
-          font-family: $font-header;
-          color: $main-color;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    .gallery-section-img {
+      margin-top: 1vh;
+      img {
+        max-width: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
+//Media Query for Gallery Component
+@include mq(600px) {
+  .gallery-section {
+    .gallery-section-img {
+      flex-basis: 45%;
+    }
+  }
+}
+@include mq(1100px) {
+  .gallery-section {
+    .gallery-section-img {
+      flex-basis: 30%;
+    }
+  }
+}
+// App- About Component
+
+.app-about {
+  margin-top: 3vh;
+  width: 100vw;
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .about-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .about-section-one {
+      flex-basis: 90%;
+      padding: 2%;
+      h1 {
+        color: $third-color;
+        font-family: $font-header;
+      }
+      p {
+        color: $main-color;
+        font-family: $font-text;
+      }
+    }
+    .about-section-two {
+      padding: 2%;
+      flex-basis: 90%;
+      h3 {
+        color: $secondary-color;
+        font-family: $font-header;
+        padding: 2px;
+      }
+      p {
+        color: $main-color;
+        font-family: $font-text;
+      }
+    }
+  }
+}
+// Media Query for About Component
+@include mq(650px) {
+  .app-about {
+    .about-section {
+      .about-section-one,
+      .about-section-two {
+        flex-basis: 40%;
+      }
+    }
+  }
+}
+
+//App- Contact Component
+
+.app-contact {
+  width: 100vw;
+  height: 100vh;
+  padding: 1%;
+  margin: 4vh auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  .contact-one {
+    flex-basis: 90%;
+    img {
+      margin-left: 25%;
+      max-width: 100%;
+      width: 50%;
+      object-fit: contain;
+
+      align-content: center;
+    }
+  }
+  .contact-two {
+    flex-basis: 90%;
+    h2 {
+      color: $secondary-color;
+      font-family: $font-header;
+      margin-bottom: 2vh;
+    }
+    h5 {
+      color: $third-color;
+      font-family: $font-text;
+      font-size: 24px;
+      margin-bottom: 1vh;
+      i {
+        margin-right: 2vw;
+        font-size: 24px;
+        color: $main-color;
       }
     }
   }

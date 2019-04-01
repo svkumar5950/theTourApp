@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
-
 export default function Home(props) {
   const { data } = props;
   return (
@@ -25,5 +24,5 @@ export default function Home(props) {
   );
 }
 Home.protoType = {
-  data : PropTypes.array.isRequired
-}
+  data: PropTypes.array.isRequired
+};

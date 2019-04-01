@@ -1,182 +1,172 @@
 {
-  "england": [
+  "image": [
     {
       "id": 1,
-      "src": "./assets/gallery_img/england/aerial-view-ancient-architecture-672532.jpg"
+      "image": "../assets/gallery_img/aerial-view-ancient-architecture-672532.jpg"
     },
     {
       "id": 2,
-      "src": "./assets/gallery_img/england/alnwick-castle-architecture-castle-68683.jpg"
+      "image": "../assets/gallery_img/alnwick-castle-architecture-castle-68683.jpg"
     },
     {
       "id": 3,
-      "src": "./assets/gallery_img/england/ancient-architecture-blue-460659.jpg"
+      "image": "../assets/gallery_img/ancient-architecture-blue-460659.jpg"
     },
     {
       "id": 4,
-      "src": "./assets/gallery_img/england/ancient-dawn-dusk-1448136.jpg"
+      "image": "../assets/gallery_img/ancient-dawn-dusk-1448136.jpg"
     },
     {
       "id": 5,
-      "src": "./assets/gallery_img/england/architecture-bridge-building-1427579.jpg"
+      "image": "../assets/gallery_img/architecture-bridge-building-1427579.jpg"
     },
     {
       "id": 6,
-      "src": "./assets/gallery_img/england/big-ben-bridge-castle-460672.jpg"
+      "image": "../assets/gallery_img/big-ben-bridge-castle-460672.jpg"
     },
     {
       "id": 7,
-      "src": "./assets/gallery_img/england/bridge-city-england-34629.jpg"
-    }
-  ],
-  "france": [
-    {
-      "id": 1,
-      "src": "./assets/gallery_img/france/ancient-architecture-attraction-548077.jpg"
-    },
-    {
-      "id": 2,
-      "src": "./assets/gallery_img/france/architecture-big-city-blue-1759702.jpg"
-    },
-    {
-      "id": 3,
-      "src": "./assets/gallery_img/france/architecture-bridge-buildings-358561.jpg"
-    },
-    {
-      "id": 4,
-      "src": "./assets/gallery_img/france/architecture-buildings-city-739407.jpg"
-    },
-    {
-      "id": 5,
-      "src": "./assets/gallery_img/france/evening-exhibition-france-2363.jpg"
-    }
-  ],
-  "india": [
-    {
-      "id": 1,
-      "src": "./assets/gallery_img/india/ancient-architectural-architectural-design-894443.jpg"
-    },
-    {
-      "id": 2,
-      "src": "./assets/gallery_img/india/ancient-architecture-asia-602607.jpg"
-    },
-    {
-      "id": 3,
-      "src": "./assets/gallery_img/india/ancient-architecture-blue-sky-774282.jpg"
-    },
-    {
-      "id": 4,
-      "src": "./assets/gallery_img/india/arches-architecture-building-1007431.jpg"
-    },
-    {
-      "id": 5,
-      "src": "./assets/gallery_img/india/architecture-building-castle-574313.jpg"
-    },
-    {
-      "id": 6,
-      "src": "./assets/gallery_img/india/asian-food-beans-cuisine-618491.jpg"
-    },
-    {
-      "id": 7,
-      "src": "./assets/gallery_img/india/india1.jpg"
+      "image": "../assets/gallery_img/bridge-city-england-34629.jpg"
     },
     {
       "id": 8,
-      "src": "./assets/gallery_img/india/india2.jpg"
-    }
-  ],
-  "italy": [
-    {
-      "id": 1,
-      "src": "./assets/gallery_img/italy/amalfi-amalfi-coast-architecture-373575.jpg"
+      "image": "../assets/gallery_img/ancient-architecture-attraction-548077.jpg"
     },
     {
-      "id": 2,
-      "src": "./assets/gallery_img/italy/amphitheater-architecture-building-1797158.jpg"
+      "id": 9,
+      "image": "../assets/gallery_img/architecture-big-city-blue-1759702.jpg"
     },
     {
-      "id": 3,
-      "src": "./assets/gallery_img/italy/ancient-architecture-arena-532263.jpg"
+      "id": 10,
+      "image": "../assets/gallery_img/architecture-bridge-buildings-358561.jpg"
     },
     {
-      "id": 4,
-      "src": "./assets/gallery_img/italy/ancient-architecture-basilica-of-san-domenico-236516.jpg"
+      "id": 11,
+      "image": "../assets/gallery_img/architecture-buildings-city-739407.jpg"
     },
     {
-      "id": 5,
-      "src": "./assets/gallery_img/italy/arched-window-architecture-beach-572780.jpg"
+      "id": 12,
+      "image": "../assets/gallery_img/evening-exhibition-france-2363.jpg"
     },
     {
-      "id": 6,
-      "src": "./assets/gallery_img/italy/architecture-boat-buildings-208701.jpg"
+      "id": 13,
+      "image": "../assets/gallery_img/ancient-architectural-architectural-design-894443.jpg"
     },
     {
-      "id": 7,
-      "src": "./assets/gallery_img/italy/architecture-boats-buildings-417344.jpg"
+      "id": 14,
+      "image": "../assets/gallery_img/ancient-architecture-asia-602607.jpg"
     },
     {
-      "id": 8,
-      "src": "./assets/gallery_img/italy/bay-beach-beautiful-531602.jpg"
-    }
-  ],
-  "japan": [
-    {
-      "id": 1,
-      "src": "./assets/gallery_img/japan/ancient-architecture-asia-161251.jpg"
+      "id": 15,
+      "image": "../assets/gallery_img/ancient-architecture-blue-sky-774282.jpg"
     },
     {
-      "id": 2,
-      "src": "./assets/gallery_img/japan/architecture-billboards-buildings-427747.jpg"
+      "id": 16,
+      "image": "../assets/gallery_img/arches-architecture-building-1007431.jpg"
     },
     {
-      "id": 3,
-      "src": "./assets/gallery_img/japan/architecture-building-castle-402028.jpg"
+      "id": 17,
+      "image": "../assets/gallery_img/architecture-building-castle-574313.jpg"
     },
     {
-      "id": 4,
-      "src": "./assets/gallery_img/japan/architecture-japan-man-1822605.jpg"
+      "id": 18,
+      "image": "../assets/gallery_img/asian-food-beans-cuisine-618491.jpg"
     },
     {
-      "id": 5,
-      "src": "./assets/gallery_img/japan/clouds-dawn-desktop-backgrounds-46253.jpg"
+      "id": 19,
+      "image": "../assets/gallery_img/india1.jpg"
     },
     {
-      "id": 6,
-      "src": "./assets/gallery_img/japan/fish-food-healthy-9210.jpg"
-    }
-  ],
-  "usa": [
-    {
-      "id": 1,
-      "src": "./assets/gallery_img/u.s.a/1-wtc-america-architecture-374710.jpg"
+      "id": 20,
+      "image": "../assets/gallery_img/india2.jpg"
     },
     {
-      "id": 2,
-      "src": "./assets/gallery_img/u.s.a/adventure-calm-clouds-414171.jpg"
+      "id": 21,
+      "image": "../assets/gallery_img/amalfi-amalfi-coast-architecture-373575.jpg"
     },
     {
-      "id": 3,
-      "src": "./assets/gallery_img/u.s.a/america-american-flag-architecture-450597.jpg"
+      "id": 22,
+      "image": "../assets/gallery_img/amphitheater-architecture-building-1797158.jpg"
     },
     {
-      "id": 4,
-      "src": "./assets/gallery_img/u.s.a/america-architecture-bay-208745.jpg"
+      "id": 23,
+      "image": "../assets/gallery_img/ancient-architecture-arena-532263.jpg"
     },
     {
-      "id": 5,
-      "src": "./assets/gallery_img/u.s.a/america-architecture-blue-sky-1239162.jpg"
+      "id": 24,
+      "image": "../assets/gallery_img/ancient-architecture-basilica-of-san-domenico-236516.jpg"
     },
     {
-      "id": 6,
-      "src": "./assets/gallery_img/u.s.a/america-blue-skies-curve-844167.jpg"
+      "id": 25,
+      "image": "../assets/gallery_img/arched-window-architecture-beach-572780.jpg"
     },
     {
-      "id": 7,
-      "src": "./assets/gallery_img/u.s.a/arizona-canyon-cliff-86703.jpg"
+      "id": 26,
+      "image": "../assets/gallery_img/architecture-boat-buildings-208701.jpg"
     },
     {
-      "id": 8,
-      "src": "./assets/gallery_img/u.s.a/buildings-city-manhattan-40142.jpg"
+      "id": 27,
+      "image": "../assets/gallery_img/architecture-boats-buildings-417344.jpg"
+    },
+    {
+      "id": 28,
+      "image": "../assets/gallery_img/bay-beach-beautiful-531602.jpg"
+    },
+    {
+      "id": 29,
+      "image": "../assets/gallery_img/ancient-architecture-asia-161251.jpg"
+    },
+    {
+      "id": 30,
+      "image": "../assets/gallery_img/architecture-billboards-buildings-427747.jpg"
+    },
+    {
+      "id": 31,
+      "image": "../assets/gallery_img/architecture-building-castle-402028.jpg"
+    },
+    {
+      "id": 32,
+      "image": "../assets/gallery_img/architecture-japan-man-1822605.jpg"
+    },
+    {
+      "id": 33,
+      "image": "../assets/gallery_img/clouds-dawn-desktop-backgrounds-46253.jpg"
+    },
+    {
+      "id": 34,
+      "image": "../assets/gallery_img/fish-food-healthy-9210.jpg"
+    },
+    {
+      "id": 35,
+      "image": "../assets/gallery_img/1-wtc-america-architecture-374710.jpg"
+    },
+    {
+      "id": 36,
+      "image": "../assets/gallery_img/adventure-calm-clouds-414171.jpg"
+    },
+    {
+      "id": 37,
+      "image": "../assets/gallery_img/america-american-flag-architecture-450597.jpg"
+    },
+    {
+      "id": 38,
+      "image": "../assets/gallery_img/america-architecture-bay-208745.jpg"
+    },
+    {
+      "id": 39,
+      "image": "../assets/gallery_img/america-architecture-blue-sky-1239162.jpg"
+    },
+    {
+      "id": 40,
+      "image": "../assets/gallery_img/america-blue-skies-curve-844167.jpg"
+    },
+    {
+      "id": 41,
+      "image": "../assets/gallery_img/arizona-canyon-cliff-86703.jpg"
+    },
+    {
+      "id": 42,
+      "image": "../assets/gallery_img/buildings-city-manhattan-40142.jpg"
     }
   ]
 }
